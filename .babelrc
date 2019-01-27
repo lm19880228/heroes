@@ -1,0 +1,8 @@
+
+//此文件用来将es6语法转为更低级别 以方便不支持es6的浏览器
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-3"
+  ]
+}
